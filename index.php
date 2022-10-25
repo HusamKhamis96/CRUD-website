@@ -5,7 +5,7 @@ $o="sam1";
 $f=$_POST['go'];
 if($f==$o){
 $_SESSION["name"]=true;
-header('Location:add.php');
+header('Location:show.php');
 return;}}
 ?>
 <!DOCTYPE html>
