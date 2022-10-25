@@ -31,7 +31,7 @@ return;
 <button
       	type="submit"  name="submit">submit
       </button>
-<a href=“index.php”>Back</a>
+<a href=show.php>Back</a>
 </form>
 </body>
 </html>
