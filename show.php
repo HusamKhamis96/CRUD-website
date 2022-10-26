@@ -8,11 +8,11 @@ header('location: search.php?Name='.$a);
 return;
 }
 if(isset($_POST['semail'])){
-header('location: search.php?Email=$a');
+header('location: search.php?Email='.$a);
 return;
 }
 if(isset($_POST['sphone'])){
-header('location: search.php?Phone=$a');
+header('location: search.php?Phone='.$a);
 return;}
 ?>
 <!DOCTYPE html>
